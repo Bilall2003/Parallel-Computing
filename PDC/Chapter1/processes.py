@@ -47,4 +47,4 @@ if __name__ == "__main__":
         end_time = time.time()
         print(f"Threads: {threads}, Time taken = {end_time - start_time:.4f} seconds")
 
-    print("\nAll processing complete.")
+    print("\nAll processing time complete.")
