@@ -1,4 +1,4 @@
-##Multiprocessing vs Multithreading in Python
+# Multiprocessing vs Multithreading in Python
 
 **Overview**
 
@@ -14,25 +14,19 @@ This is a user-defined function located in a separate file called do_something.p
 It represents a workload — either CPU-bound or I/O-bound.
 
 Example implementation:
-
-# do_something.py
+do_something.py
 def do_something(size, out_list):
     for i in range(size):
         out_list.append(i ** 2)   # Simple CPU-bound operation
-
 
 You can replace it with your own function (e.g., file reading, API calls, matrix calculations, etc.) depending on what you want to test.
 
 2. The main script (multithreading_test.py)
 
-This script runs the same task twice:
-
-Using multiprocessing (with 10 processes)
-
-Using multithreading (with 10 threads)
-
-It measures execution time for both and prints a comparison.
-
+-This script runs the same task twice:
+-Using multiprocessing (with 10 processes)
+-Using multithreading (with 10 threads)
+-It measures execution time for both and prints a comparison.
 
 **Explanation of Key Parts**
 
