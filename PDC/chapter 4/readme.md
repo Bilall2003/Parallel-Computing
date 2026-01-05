@@ -6,12 +6,12 @@ MPI gives multiple methods to communicate with processes. Some of these are ment
 1. Point to Point Communication:
 As the name suggest, this method allows for one particular process to communicate with another process directly. 
 
-![alt text](image.png)
+
 
 2. Broadcast:
 This methods allows for one process to share its data with all other processes.
 
-![alt text](image-1.png)
+
 
 3. Scatter:
 This method allows processes to split the data they have and share it with other processes, allowing for increased throughput.
